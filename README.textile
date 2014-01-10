@@ -16,14 +16,12 @@ h2. Install
 install active_merchant and activemerchant_patch_for_china as plugins:
 
 <pre><code>
-script/plugin install git://github.com/Shopify/active_merchant.git
-script/plugin install git://github.com/flyerhzm/activemerchant_patch_for_china.git
+script/plugin install ssh://git@192.168.9.16:2222/yiwenqi/activemerchant_patch_for_china.git
 </code></pre>
 
 install activemerchant and activemerchant_patch_for_china as gems:
 
 <pre><code>
-gem install activemerchant
 gem install activemerchant_patch_for_china
 </code></pre>
 
